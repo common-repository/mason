@@ -1,0 +1,8 @@
+1. check for when container is called by a shortcode, but contaiiner doesnt exist - report error somehow
+2. 559 class-mason.php check: //				if( in_array( preg_replace('/_block/','',$module_name), $included_modules ) ){
+					$container_layouts[] = $this->layouts[$module_name];
+//				} 
+3. need to iterate over the field to get the conditional field as lang
+4. language toggle added (shortcode)
+5. consider styling sheets and enque path in settings (either enqueue default .css from each module OR path for a combined css
+6. an edit link when logged in that opens that block and scrolls to it
